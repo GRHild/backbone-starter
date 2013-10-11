@@ -13,5 +13,4 @@
   		// $(this.el).html( this.model.get('name'));
   	}
   });
-
 })();
