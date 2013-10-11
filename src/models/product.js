@@ -1,6 +1,6 @@
 (function () {
 
-  window.Dummy = Backbone.Model.extend({
+  window.Product = Backbone.Model.extend({
 
   });
 
