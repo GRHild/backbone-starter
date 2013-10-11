@@ -1,7 +1,7 @@
 (function () {
 
   window.ProductView = Backbone.View.extend({
-  	function() {
+  	render: function() {
   		$(this.el).html( this.model.get('name'));
   	}
   });
