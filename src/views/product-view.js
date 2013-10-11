@@ -4,8 +4,8 @@
 
 	var productTemplate = _.getTemplate('product');
 
-
   window.ProductView = Backbone.View.extend({
+    className: "productView",
   	render: function() {
   		var newHtml = productTemplate( this.model.toJSON() );
   		$(this.el).html(newHtml);

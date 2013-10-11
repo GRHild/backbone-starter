@@ -6,3 +6,11 @@ body {
 #templates {
   display: none;
 }
+
+.storeView{
+	border: thick red solid;
+}
+
+.productView{
+	border: thin blue solid;
+}
